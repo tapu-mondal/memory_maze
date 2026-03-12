@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Puzzle Game | Get Puzzeled in memories!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Himi & Tapu | Get Puzzeled in memories <3 </h1>
+
+            <div id="menu">
+                <button onclick="showImages()">Start</button>
+            </div>
+
+            <div id="images">
+                <h2>Select Image</h2>
+
+                <img src="img1.jpg" onclick="startGame('img1.jpg')">
+                <img src="img2.jpg" onclick="startGame('img2.jpg')">
+                <img src="img3.jpg" onclick="startGame('img3.jpg')">
+                <img src="img4.jpg" onclick="startGame('img4.jpg')">
+                <img src="img5.jpg" onclick="startGame('img5.jpg')">
+                <img src="img6.jpg" onclick="startGame('img6.jpg')">
+
+                <br><br>
+                <button onclick="backMenu()">Back</button>
+
+            </div>
+
+            <div id="game">
+
+                <div id="board"></div>
+
+                <br>
+                <button onclick="exitGame()">Exit</button>
+
+            </div>
+
+            <script src="script.js"></script>
+
+</body>
+
+</html>
